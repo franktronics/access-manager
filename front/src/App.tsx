@@ -15,7 +15,7 @@ function App() {
       console.log(res)
       setData((data) => {return {
         ...data,
-        test: res
+        test: res.data
       }})
     })
   }, [])
